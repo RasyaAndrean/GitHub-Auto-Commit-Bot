@@ -1,0 +1,26 @@
+# GitHub Auto Commit - Requirements
+# This script uses only Python standard library modules
+# No external dependencies required!
+
+# Required Python standard library modules:
+# - json (for configuration parsing)
+# - os (for file operations)
+# - random (for randomization)
+# - subprocess (for git commands)
+# - sys (for system operations)
+# - time (for delays)
+# - datetime (for time handling)
+# - pathlib (for path operations)
+# - argparse (for command line arguments)
+# - logging (for logging)
+# - typing (for type hints)
+# - re (for regular expressions - monitor.py only)
+
+# System requirements:
+# - Python 3.6 or higher
+# - Git installed and in PATH
+# - Write permissions in repository directory
+
+# Optional (for enhanced features):
+# - cron (Linux/macOS) - for scheduling
+# - Task Scheduler (Windows) - for scheduling
