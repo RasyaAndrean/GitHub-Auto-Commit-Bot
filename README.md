@@ -6,23 +6,19 @@ Automate your GitHub contributions with intelligent commit patterns that keep yo
 
 ```
 github-auto-commit/
-├── launcher.bat             # Windows launcher menu
-├── launcher.sh              # Linux/macOS launcher menu
+├── main.py                  # Interactive GitHub Auto Bot (main interface)
 ├── README.md                # Root project overview
 ├── requirements.txt         # System requirements
 ├── LICENSE                  # License information
 │
-├── scripts/                 # Main executable scripts
+├── scripts/                 # Core automation scripts
 │   ├── github_auto_commit.py     # Core automation script
-│   ├── monitor.py               # Monitoring and analysis tool
-│   ├── setup.sh                 # Linux/macOS setup script
-│   ├── setup.bat                # Windows setup script
-│   ├── scheduler_helper.sh      # Linux/macOS scheduling helper
-│   └── scheduler_helper.bat     # Windows scheduling helper
+│   └── monitor.py               # Monitoring and analysis tool
 │
 ├── configs/                 # Configuration files
-│   ├── config.json              # Main configuration (auto-generated)
-│   └── config.example.json      # Example configuration
+│   ├── config1.json              # Main configuration
+│   ├── config2.json              # Secondary configuration
+│   └── config.example.json       # Example configuration
 │
 ├── docs/                    # Documentation
 │   ├── README.md                # Detailed documentation
@@ -30,11 +26,8 @@ github-auto-commit/
 │   └── PROJECT_SUMMARY.md       # Project overview
 │
 ├── logs/                    # Log files
-│   └── auto_commit.log          # Activity logs
-│
-├── test/                    # Test scripts
-│   ├── test_setup.sh            # Linux/macOS test script
-│   └── test_setup.bat           # Windows test script
+│   ├── activity_log.txt          # Activity logs
+│   └── auto_commit.log           # Auto commit logs
 │
 ├── activity_tracking/       # Generated tracking files
 │   ├── activity_log.txt         # Activity log (generated during runtime)
@@ -47,31 +40,22 @@ github-auto-commit/
 
 ## 🚀 Quick Start
 
-### 1. One-Click Setup
+### 1. Run the Interactive GitHub Auto Bot (Recommended)
 ```bash
-# Linux/macOS
-chmod +x launcher.sh && ./launcher.sh
-# Or directly: cd scripts && chmod +x setup.sh && ./setup.sh
+# Direct command - Linux/macOS
+python3 main.py
 
-# Windows
-launcher.bat
-# Or directly: cd scripts && setup.bat
+# Direct command - Windows
+python main.py
 ```
 
 ### 2. Test the Setup
 ```bash
-# Using launcher (recommended)
-# Select option 2 in the launcher menu
-
 # Direct command - Linux/macOS
 cd scripts && python3 github_auto_commit.py --dry-run
 
 # Direct command - Windows
 cd scripts && python github_auto_commit.py --dry-run
-
-# Using test scripts
-cd test && ./test_setup.sh    # Linux/macOS
-cd test && test_setup.bat     # Windows
 ```
 
 ### 3. Run Daily Commits
@@ -83,11 +67,8 @@ cd scripts && python3 github_auto_commit.py --mode daily
 cd scripts && python github_auto_commit.py --mode daily
 ```
 
-### 4. GitHub Auto Bot (Interactive Mode) ⭐ NEW
+### 3. GitHub Auto Bot (Interactive Mode) ⭐ MAIN FEATURE
 ```bash
-# Using launcher (recommended)
-# Select option 7 in the launcher menu
-
 # Direct command - Linux/macOS
 python3 main.py
 
@@ -132,7 +113,7 @@ This tool includes built-in safety features to maintain natural-looking contribu
 ## 📞 Support
 
 For issues and questions:
-1. **Use the launcher menu** - It provides easy access to all functions
+1. **Run the main interactive bot**: `python main.py` - Provides easy access to all functions
 2. Check the [documentation](docs/README.md)
 3. Review logs in the `logs/` directory
 4. Run the monitor script: `python scripts/monitor.py`

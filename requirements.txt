@@ -14,7 +14,7 @@
 # - logging (for logging)
 # - typing (for type hints)
 # - re (for regular expressions - monitor.py only)
-# - getpass (for secure password input - main.py only)
+# - getpass (for secure password input - standard library)
 
 # External dependencies:
 requests>=2.25.0  # For GitHub API calls in main.py
