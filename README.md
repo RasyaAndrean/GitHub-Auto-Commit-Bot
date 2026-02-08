@@ -35,7 +35,6 @@ github-auto-commit/
 │   ├── development_notes.txt    # Development notes (generated during runtime)
 │   └── changelog.md             # Change log (generated during runtime)
 │
-└── .qoder/                  # Qoder IDE configuration
 ```
 
 ## 🚀 Quick Start
