@@ -1,8 +1,7 @@
 # GitHub Auto Commit - Requirements
-# This script uses only Python standard library modules
-# No external dependencies required!
 
-# Required Python standard library modules:
+# Required Python modules:
+# Standard library:
 # - json (for configuration parsing)
 # - os (for file operations)
 # - random (for randomization)
@@ -15,6 +14,10 @@
 # - logging (for logging)
 # - typing (for type hints)
 # - re (for regular expressions - monitor.py only)
+# - getpass (for secure password input - main.py only)
+
+# External dependencies:
+requests>=2.25.0  # For GitHub API calls in main.py
 
 # System requirements:
 # - Python 3.6 or higher

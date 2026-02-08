@@ -83,6 +83,25 @@ cd scripts && python3 github_auto_commit.py --mode daily
 cd scripts && python github_auto_commit.py --mode daily
 ```
 
+### 4. GitHub Auto Bot (Interactive Mode) ⭐ NEW
+```bash
+# Using launcher (recommended)
+# Select option 7 in the launcher menu
+
+# Direct command - Linux/macOS
+python3 main.py
+
+# Direct command - Windows
+python main.py
+```
+
+The GitHub Auto Bot provides an interactive menu with these features:
+- 🔐 **GitHub Authentication** - Secure token-based login
+- 📚 **Repository Management** - List and select from your GitHub repositories
+- 🎯 **Targeted Commits** - Commit to specific repositories only
+- 🔄 **Bulk Operations** - Commit to all repositories at once
+- ⚙️ **Configuration Management** - Save and load credentials
+
 ## 📖 Documentation
 
 - **[Full Documentation](docs/README.md)** - Complete guide with all features
@@ -97,6 +116,7 @@ cd scripts && python github_auto_commit.py --mode daily
 ✅ **Easy scheduling** - Automatic cron/Task Scheduler setup  
 ✅ **Comprehensive monitoring** - Activity tracking and analysis  
 ✅ **Flexible configuration** - Customizable settings via JSON  
+✅ **Interactive GitHub Bot** - Menu-driven repository management ⭐ NEW  
 
 ## 🛡 Safety & Ethics
 

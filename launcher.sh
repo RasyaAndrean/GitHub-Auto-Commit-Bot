@@ -13,11 +13,12 @@ while true; do
     echo "4. Backfill History"
     echo "5. Monitor Activity"
     echo "6. Manage Scheduling"
-    echo "7. View Documentation"
-    echo "8. Exit"
+    echo "7. GitHub Auto Bot (NEW) - Interactive Menu"
+    echo "8. View Documentation"
+    echo "9. Exit"
     echo ""
     
-    read -p "Enter your choice (1-8): " choice
+    read -p "Enter your choice (1-9): " choice
     
     case $choice in
         1)
@@ -99,6 +100,14 @@ while true; do
             ;;
         7)
             echo ""
+            echo "🤖 Starting GitHub Auto Bot..."
+            echo "This will open an interactive menu for GitHub automation"
+            echo ""
+            python3 main.py
+            read -p "Press Enter to continue..."
+            ;;
+        8)
+            echo ""
             echo "📖 Opening Documentation..."
             echo "Check the docs/ folder for detailed documentation"
             echo "Quick Start Guide: docs/QUICK_START.md"
@@ -106,7 +115,7 @@ while true; do
             echo ""
             read -p "Press Enter to continue..."
             ;;
-        8)
+        9)
             echo ""
             echo "👋 Goodbye!"
             exit 0
