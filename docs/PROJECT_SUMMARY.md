@@ -154,7 +154,7 @@ The monitor script provides:
 ## ⚠️ Important Disclaimers
 
 1. **Ethical Usage**: This tool should supplement, not replace, genuine contributions
-2. **Platform Compliance**: Users are responsible for遵守 platform terms of service
+2. **Platform Compliance**: Users are responsible for platform terms of service
 3. **Professional Context**: Check employment policies before use
 4. **Academic Integrity**: Don't use to misrepresent actual work
 

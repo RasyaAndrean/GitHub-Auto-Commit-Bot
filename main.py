@@ -7,7 +7,6 @@ Interactive menu for GitHub automation with user authentication
 import os
 import sys
 import json
-import getpass
 import subprocess
 from pathlib import Path
 import requests
@@ -107,7 +106,7 @@ class GitHubAutoCommitBot:
         if self.load_credentials():
             use_existing = input(f"Use existing username '{self.github_username}'? (y/n): ").lower()
             if use_existing == 'y':
-                token_input = getpass.getpass("Enter GitHub Token (or press Enter to use saved): ")
+                token_input = input("Enter GitHub Token (or press Enter to use saved): ")
                 if token_input.strip():
                     self.github_token = token_input
                 # Validate the token
@@ -125,7 +124,7 @@ class GitHubAutoCommitBot:
             self.github_username = input("Enter GitHub Username: ").strip()
         
         if not self.github_token:
-            self.github_token = getpass.getpass("Enter GitHub Personal Access Token: ").strip()
+            self.github_token = input("Enter GitHub Personal Access Token: ").strip()
         
         # Validate credentials
         print("\n🔍 Validating credentials...")
