@@ -1,9 +1,9 @@
 # 🤖 GitHub Auto Commit Bot
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![VSCode](https://img.shields.io/badge/IDE-VSCode-blue.svg)](https://code.visualstudio.com/)
-[![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue.svg)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Platform-Node.js-green.svg)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/Language-Python-blue.svg)](https://python.org/)
+
+[![GitHub](https://img.shields.io/badge/Platform-GitHub-black.svg)](https://github.com/)
 
 
 Automate your GitHub contributions with intelligent commit patterns that keep your contribution graph green while maintaining a natural appearance.
@@ -35,12 +35,7 @@ github-auto-commit/
 │   ├── activity_log.txt          # Activity logs
 │   └── auto_commit.log           # Auto commit logs
 │
-├── activity_tracking/       # Generated tracking files
-│   ├── activity_log.txt         # Activity log (generated during runtime)
-│   ├── progress_tracker.md      # Progress tracking (generated during runtime)
-│   ├── development_notes.txt    # Development notes (generated during runtime)
-│   └── changelog.md             # Change log (generated during runtime)
-│
+
 ```
 
 ## 🚀 Quick Start
@@ -72,14 +67,6 @@ cd scripts && python3 github_auto_commit.py --mode daily
 cd scripts && python github_auto_commit.py --mode daily
 ```
 
-### 3. GitHub Auto Bot (Interactive Mode) ⭐ MAIN FEATURE
-```bash
-# Direct command - Linux/macOS
-python3 main.py
-
-# Direct command - Windows
-python main.py
-```
 
 The GitHub Auto Bot provides an interactive menu with these features:
 - 🔐 **GitHub Authentication** - Secure token-based login

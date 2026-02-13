@@ -1,3 +1,25 @@
 # Configuration files that may contain sensitive data
 configs/config.json
 configs/github_config.json
+
+# Log files
+logs/*.log
+*.log
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
