@@ -1,0 +1,3 @@
+# Configuration files that may contain sensitive data
+configs/config.json
+configs/github_config.json

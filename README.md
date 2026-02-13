@@ -1,5 +1,11 @@
 # 🤖 GitHub Auto Commit Bot
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![VSCode](https://img.shields.io/badge/IDE-VSCode-blue.svg)](https://code.visualstudio.com/)
+[![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Platform-Node.js-green.svg)](https://nodejs.org/)
+
+
 Automate your GitHub contributions with intelligent commit patterns that keep your contribution graph green while maintaining a natural appearance.
 
 ## 📁 Project Structure
